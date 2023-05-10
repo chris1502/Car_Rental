@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Car Rental</string>
+    <string name="booking_id_label" />
+    <string name="car_model_label" />
+    <string name="start_date_label" />
+    <string name="end_date_label" />
+    <string name="duration_label" />
+    <string name="extras_label" />
+    <string name="total_label" />
+    <string name="return_date_label" />
+    <string name="manage_cars" />
+    <string name="car_details_title">Car Details</string>
+    <string name="book_button">Book Now</string>
+    <string name="car_model_hint">Enter car model</string>
+        <string name="location_hint">Enter car location</string>
+        <string name="description_hint">Enter car description</string>
+        <string name="add_car">Add Car</string>
+        <string name="remove_car">Remove Car</string>
+        <string name="manage_locations">Manage Locations</string>
+        <string name="add_location">Add Location</string>
+        <string name="remove_location">Remove Location</string>
+        <string name="manage_users">Manage Users</string>
+        <string name="remove_user">Remove User</string>
+    <string name="password_hint">Password</string>
+    <string name="login">Login</string>
+    <string name="username_hint">Username</string>
+    <string name="select_car">Select a car</string>
+    <string name="select_duration">Select a duration</string>
+    <string name="Insurance">Insurance</string>
+    <string name="GPS">GPS</string>
+    <string name="book">Book Now</string>
+    <string name="car_model">Car Model:</string>
+    <string name="pickup_date">Pickup Date:</string>
+    <string name="duration">Duration:</string>
+    <string name="book_now">Book Now</string>
+    <string name="pickup_date_prompt">Select Pickup Date</string>
+    <string name="booking_details">booking_details</string>
+    <string name="edit_booking">Edit Booking</string>
+    <string name="edit_user">Edit User</string>
+    <string-array name="brand_array">
+        <item>All Brands</item>
+        <item>KIA</item>
+        <item> Ford</item>
+        <item>Nissan</item>
+        <item>Toyota</item>
+        <item>Vauxhall</item>
+        <item>BMW</item>
+        <item>Aston Martin</item>
+        <!-- Add more brand names as needed -->
+    </string-array>
+    <string name="brand_prompt">Select a brand</string>
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

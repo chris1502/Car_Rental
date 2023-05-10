@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="location_array" >
+    <item>Leicester</item>
+    <item>London</item>
+    <item>Sheffield</item>
+    <item>New Castle</item>
+    <item>Kent</item>
+    <item>Edinburgh</item>
+    <item>Portsmouth</item>
+    <item>Weston Super Mare</item>
+
+    </string-array>
+
+    <string-array name="transmission_array">
+    <item>AUTO</item>
+    <item>MANUAL</item>
+
+
+    </string-array>
+
+
+    <string-array name="seats_array">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+
+    </string-array>
+
+
+
+
+    <string-array name="duration_array">
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>3 days</item>
+        <item>4 days</item>
+        <item>5 days</item>
+        <item>6 days</item>
+        <item>1 week</item>
+        <item>2 weeks</item>
+        <item>3 weeks</item>
+        <item>1 month</item>
+    </string-array>
+    <string-array name="pickup_date_array">
+        <item>Monday</item>
+        <item>Tuesday </item>
+        <item>Wednesday </item>
+        <item>Thursday </item>
+        <item>Friday, </item>
+        <item>Saturday </item>
+        <item>Sunday </item>
+
+
+    </string-array>
+
+
+
+</resources>

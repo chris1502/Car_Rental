@@ -1,0 +1,82 @@
+<!-- car_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/car_brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Brand" />
+
+    <TextView
+        android:id="@+id/car_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model" />
+
+    <TextView
+        android:id="@+id/car_year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year" />
+
+    <TextView
+        android:id="@+id/car_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price" />
+
+    <TextView
+        android:id="@+id/car_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description" />
+
+    <TextView
+        android:id="@+id/car_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location" />
+
+    <TextView
+        android:id="@+id/car_seats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seats" />
+
+    <TextView
+        android:id="@+id/car_transmission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transmission" />
+
+    <TextView
+        android:id="@+id/make_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make" />
+
+    <TextView
+        android:id="@+id/model_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Model" />
+
+
+    <ImageView
+        android:id="@+id/car_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+
+
+    <RadioButton
+        android:id="@+id/car_radio_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false" />
+
+</LinearLayout>

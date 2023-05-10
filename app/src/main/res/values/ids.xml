@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="location_spinner" type="id" />
+    <item name="location_list_view" type="id" />
+    <item name="add_location_button" type="id" />
+    <item name="remove_location_button" type="id" />
+    <item name="remove_car_button" type="id" />
+    <item name="user_list_view" type="id" />
+    <item name="remove_user_button" type="id" />
+    <item name="car_model_edit_text" type="id" />
+    <item name="location_edit_text" type="id" />
+    <item name="description_edit_text" type="id" />
+    <item name="add_car_button" type="id" />
+    <item name="booking_id_text_view" type="id" />
+</resources>

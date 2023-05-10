@@ -1,0 +1,95 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <!-- Activities -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.carrental.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Create com.example.carrental.com.example.carrental.com.example.carrental.adapters.User Activity -->
+        <activity
+            android:name=".user.CreateUserActivity"
+            android:label="Create User">
+        </activity>
+
+        <activity android:name=".booking.EditBookingActivity" />
+        <activity
+            android:name=".user.UserEdit"
+            android:label="Edit User">
+        </activity>
+
+
+
+        <activity
+
+            android:name=".LoginActivity"
+            android:exported="true">
+        </activity>
+
+        <!-- Admin Activity -->
+        <activity
+            android:name=".admin.AdminActivity"
+            android:label="Admin">
+        </activity>
+
+        <!-- Create Admin Activity -->
+        <activity android:name=".admin.CreateAdminActivity" />
+
+        <!-- Admin Login Activity -->
+        <activity android:name=".admin.AdminLoginActivity" />
+
+        <!-- Booking Activity -->
+        <activity
+            android:name=".booking.BookingActivity"
+            android:label="Book a Car"
+            tools:ignore="Instantiatable">
+        </activity>
+
+        <!-- Booking Details Activity -->
+        <activity
+            android:name=".booking.BookingDetailsActivity"
+            android:label="Booking Details">
+        </activity>
+
+        <!-- Google Maps API key -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY_HERE" />
+
+    </application>
+
+</manifest>
